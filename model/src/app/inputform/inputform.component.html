@@ -1,0 +1,43 @@
+<div class="jumbotron">
+    <h1>Report Analyzer</h1>
+    </div>
+    
+    <div class="example-container container" >
+      <mat-form-field appearnce="outline">
+        Mean_Radius:
+        <input [(ngModel)]="mr" matInput placeholder="" type="number">
+      </mat-form-field>
+    
+      <mat-form-field>
+        Mean_Texture:
+        <input [(ngModel)]="mt" matInput placeholder="" type="number">
+      </mat-form-field>
+      <mat-form-field>
+        Mean_perimeter:
+        <input [(ngModel)]="mp" matInput placeholder="" type="number">
+      </mat-form-field>
+      <mat-form-field>
+        Mean_area:
+        <input [(ngModel)]="ma" matInput placeholder="" type="number">
+      </mat-form-field>
+      <mat-form-field>
+        Mean_smoothness:
+        <input [(ngModel)]="ms" matInput placeholder="" type="number">
+      </mat-form-field>
+      
+      <br>
+      <p *ngIf="isDeleted" color="danger">Your account is deleted</p>
+      <button mat-raised-button color="primary" (click)=sendPostRequest()>
+          Submit    
+      </button>
+      <div >
+
+    <h2 *ngIf = "flag">Chances of having Breast Cancer : {{prediction}} 84.760221 %</h2>
+      </div>
+    </div>
+    
+    <!--
+      <router-outlet></router-outlet>
+    <app-home></app-home> -->
+    
+    

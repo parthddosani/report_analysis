@@ -1,0 +1,16 @@
+Test Name, Result, Reference Range
+WBC Count," 4,630"," 4,000 - 10,000"
+RBC Count,5.57, 4.5 - 6.0
+Hemoglobin,16.6, 14 - 18
+Hematocrit,47,40 - 50
+MCV,85,82 - 98
+MCH,30,27 - 31
+MCHC,35, 32 - 36
+RDW—CV, 12, 11 - 16
+Platelets," 204,000"," 140,000 - 450,000"
+Neutrophils,50,40 - 75
+Lymphocytes,32, 15 - 45
+Monocytes, 17,2 - 12
+Eosinophils,1,2 - 6
+Basophils,0, 0 - 1
+Bands, 0, 0-3
